@@ -26,11 +26,11 @@ public class Move : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.S))
         {
-            rb.transform.position += new Vector3(.1F, 0F, .1F);
+            rb.transform.position += new Vector3(0F, 0F, .1F);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            rb.transform.position += new Vector3(.1F, 0F, -.1F);
+            rb.transform.position += new Vector3(0F, 0F, -.1F);
         }
     }
 }
