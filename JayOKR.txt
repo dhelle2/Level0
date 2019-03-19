@@ -1,4 +1,4 @@
 Implementation: 
-    create model 1 and model 2 for each player respectively   |
-    decorate scene                                            |--> 2hr give or take by tuesday 5pm
-    upload code                                               |
+    create model 1 and model 2 for both players respectively   |
+    decorate scene                                             |--> 2hr give or take by tuesday 5pm
+    upload code                                                |
