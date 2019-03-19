@@ -1,0 +1,11 @@
+
+
+initial git commit and very simple level 0: sat 5pm (2 hrs)
+UI: camera switches by tue 5pm, 1hr
+    code entry by tue 5pm, 2hr
+    room switch by tue 5pm, 2hr
+CAVE: if possible within time constraints, install CAVE software
+and get interaction running with simulator by tue 10 pm, 5 hrs
+(1 hr get ready for build? if simulator version ready by TA Office
+Hours)
+
