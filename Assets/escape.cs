@@ -25,8 +25,8 @@ public class escape : MonoBehaviour
     public void checkEscapeAndEscape() {
         if (inputField.text == "12")
         {
-            player1.GetComponent<Rigidbody>().transform.position += new Vector3(0F, 0F, 10F);
-            player2.GetComponent<Rigidbody>().transform.position += new Vector3(0F, 0F, 10F);
+            player1.GetComponent<Rigidbody>().transform.position += new Vector3(0F, 0F, -100F);
+            player2.GetComponent<Rigidbody>().transform.position += new Vector3(0F, 0F, -100F);
         }
     }
 }
