@@ -439,7 +439,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1335
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -475,6 +475,10 @@ PrefabInstance:
     - target: {fileID: 170012, guid: c3c52b13b89291b4ba993eabe6338094, type: 3}
       propertyPath: m_Name
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 170012, guid: c3c52b13b89291b4ba993eabe6338094, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 476686, guid: c3c52b13b89291b4ba993eabe6338094, type: 3}
       propertyPath: m_LocalPosition.x
@@ -531,6 +535,14 @@ PrefabInstance:
     - target: {fileID: 476686, guid: c3c52b13b89291b4ba993eabe6338094, type: 3}
       propertyPath: m_LocalScale.z
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 137922, guid: c3c52b13b89291b4ba993eabe6338094, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 132670, guid: c3c52b13b89291b4ba993eabe6338094, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2302780, guid: c3c52b13b89291b4ba993eabe6338094, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -741,6 +753,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 156280, guid: 47980629918e03b48b598828d0660fd7, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 431220, guid: 47980629918e03b48b598828d0660fd7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 50.2
@@ -796,6 +812,14 @@ PrefabInstance:
     - target: {fileID: 431220, guid: 47980629918e03b48b598828d0660fd7, type: 3}
       propertyPath: m_LocalScale.z
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 147354, guid: 47980629918e03b48b598828d0660fd7, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 125386, guid: 47980629918e03b48b598828d0660fd7, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2378900, guid: 47980629918e03b48b598828d0660fd7, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -977,7 +1001,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!54 &1505384364
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1291,7 +1315,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 823
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
