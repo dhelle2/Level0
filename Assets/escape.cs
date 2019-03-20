@@ -9,6 +9,7 @@ public class escape : MonoBehaviour
     public GameObject player1;
     public GameObject player2;
     public InputField inputField;
+    public GameObject door;
 
     // Start is called before the first frame update
     void Start()
@@ -25,8 +26,11 @@ public class escape : MonoBehaviour
     public void checkEscapeAndEscape() {
         if (inputField.text == "12")
         {
-            player1.GetComponent<Rigidbody>().transform.position += new Vector3(0F, 0F, -100F);
-            player2.GetComponent<Rigidbody>().transform.position += new Vector3(0F, 0F, -100F);
+            //player1.GetComponent<Rigidbody>().transform.position += new Vector3(0F, 0F, -100F);
+            //player2.GetComponent<Rigidbody>().transform.position += new Vector3(0F, 0F, -100F);
+            door.SetActive(false);
+            player1.GetComponent<Rigidbody>().useGravity = false;
+            player2.GetComponent<Rigidbody>().useGravity = false;
         }
     }
 }

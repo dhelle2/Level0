@@ -820,6 +820,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room1_Box
       objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: 6c715bfaf04ed7a4a9c1fea1189cb842, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6c715bfaf04ed7a4a9c1fea1189cb842, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: 6c715bfaf04ed7a4a9c1fea1189cb842, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 6c715bfaf04ed7a4a9c1fea1189cb842, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30.253666
@@ -987,6 +999,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47980629918e03b48b598828d0660fd7, type: 3}
+--- !u!1 &1375166772 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100018, guid: 6c715bfaf04ed7a4a9c1fea1189cb842,
+    type: 3}
+  m_PrefabInstance: {fileID: 815498948}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1393046729
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,6 +1531,7 @@ MonoBehaviour:
   player1: {fileID: 1505384363}
   player2: {fileID: 121130751}
   inputField: {fileID: 1677185597}
+  door: {fileID: 1375166772}
 --- !u!1 &1878790676
 GameObject:
   m_ObjectHideFlags: 0
