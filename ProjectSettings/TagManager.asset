@@ -14,8 +14,8 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
+  - ObjectToHideFromPlayer1
+  - ObjectToHideFromPlayer2
   - 
   - 
   - 
