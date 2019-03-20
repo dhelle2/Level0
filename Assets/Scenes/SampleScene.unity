@@ -1357,6 +1357,7 @@ GameObject:
   - component: {fileID: 1677185599}
   - component: {fileID: 1677185598}
   - component: {fileID: 1677185597}
+  - component: {fileID: 1677185600}
   m_Layer: 5
   m_Name: InputField
   m_TagString: Untagged
@@ -1434,7 +1435,18 @@ MonoBehaviour:
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1677185600}
+        m_MethodName: checkEscapeAndEscape
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.InputField+SubmitEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_OnValueChanged:
@@ -1486,6 +1498,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677185595}
   m_CullTransparentMesh: 0
+--- !u!114 &1677185600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677185595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45f6f1fc35251a4a904f74399cc2b07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1: {fileID: 1505384363}
+  player2: {fileID: 121130751}
+  inputField: {fileID: 1677185597}
 --- !u!1 &1878790676
 GameObject:
   m_ObjectHideFlags: 0
