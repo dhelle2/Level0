@@ -126,14 +126,13 @@ GameObject:
   - component: {fileID: 121130754}
   - component: {fileID: 121130753}
   - component: {fileID: 121130752}
-  - component: {fileID: 121130758}
   m_Layer: 0
   m_Name: Player 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &121130752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,20 +235,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: -17.69, z: 0}
---- !u!114 &121130758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121130751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acf3c131b32dfc448bb341b9e88bcff7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player2: {fileID: 0}
-  player1: {fileID: 0}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,7 +395,7 @@ GameObject:
   - component: {fileID: 534669904}
   - component: {fileID: 534669903}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Player 1 Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -622,8 +607,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acf3c131b32dfc448bb341b9e88bcff7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player2: {fileID: 121130751}
-  player1: {fileID: 1505384363}
+  player2: {fileID: 1878790676}
+  player1: {fileID: 534669902}
 --- !u!1001 &709590372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1544,12 +1529,12 @@ GameObject:
   - component: {fileID: 1878790679}
   - component: {fileID: 1878790678}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Player 2 Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1878790677
 Transform:
   m_ObjectHideFlags: 0
