@@ -1200,6 +1200,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 6c715bfaf04ed7a4a9c1fea1189cb842, type: 3}
+--- !u!1 &835791711 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100132, guid: 233a319efc007814798900e94b7b18d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 221054201}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1145941781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1796,8 +1802,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e45f6f1fc35251a4a904f74399cc2b07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1: {fileID: 1505384363}
-  player2: {fileID: 121130751}
+  player1: {fileID: 359501215}
+  player2: {fileID: 835791711}
   inputField: {fileID: 1677185597}
   door: {fileID: 716893434}
 --- !u!1001 &1795609525
