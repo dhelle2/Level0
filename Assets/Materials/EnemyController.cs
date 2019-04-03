@@ -26,7 +26,7 @@ public class EnemyController : MonoBehaviour
         yield return new WaitForSeconds(2);
         this.transform.position = startPos;
 
-       // anim.ResetTrigger("trigger1");
+        anim.ResetTrigger("trigger1");
 
     }
 
@@ -42,7 +42,7 @@ public class EnemyController : MonoBehaviour
             anim.SetTrigger("trigger1");
 
             StartCoroutine(Example());
-            anim.ResetTrigger("trigger1");
+
         }
 
 
