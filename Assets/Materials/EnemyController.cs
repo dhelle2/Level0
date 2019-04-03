@@ -25,7 +25,7 @@ public class EnemyController : MonoBehaviour
 
         yield return new WaitForSeconds(2);
         this.transform.position = startPos;
-        anim.ResetTrigger("trigger1");
+        anim.SetTrigger("trigger2");
 
     }
 
