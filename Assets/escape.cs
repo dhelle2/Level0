@@ -32,6 +32,7 @@ public class escape : MonoBehaviour
             //doorButton.gameObject.SetActive(true);
             room1Audio = room1.GetComponent<AudioSource>();
             room1Audio.Stop();
+            GetComponent<AudioSource>().Play();
             //player1.GetComponent<Rigidbody>().transform.position += new Vector3(0F, 0F, -100F);
             //player2.GetComponent<Rigidbody>().transform.position += new Vector3(0F, 0F, -100F);
             door.SetActive(false);
