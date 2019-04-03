@@ -1818,9 +1818,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eac7f5105d543452e960aa436f4ccc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1505384368}
+  player: {fileID: 1662921871}
   myTransform: {fileID: 1744840920}
-  rb: {fileID: 0}
 --- !u!4 &1744840920 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: f14b6f7503476eb4e9b2afc1cc05e719,
