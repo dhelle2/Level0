@@ -25,7 +25,6 @@ public class EnemyController : MonoBehaviour
 
         yield return new WaitForSeconds(2);
         this.transform.position = startPos;
-
         anim.ResetTrigger("trigger1");
 
     }
@@ -37,7 +36,7 @@ public class EnemyController : MonoBehaviour
         float distance = Vector3.Distance(player.position, transform.position);
 
 
-        if (distance < 10)
+        if (distance < 15)
         {
             anim.SetTrigger("trigger1");
 
