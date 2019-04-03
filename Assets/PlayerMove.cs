@@ -7,16 +7,25 @@ public class PlayerMove : MonoBehaviour
     // Start is called before the first frame update
     Rigidbody rb;
     public float spd = 1f;
+    private Animator animator;
+    bool Walk;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
+
+        //Walk = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        float move = Input.GetAxis("Vertical");
+        animator.SetFloat("Speed", move);
+
+
         if (Input.GetButtonDown("Fire3"))
         {
             spd = 3f;
@@ -31,8 +40,10 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             //rb.transform.position += new Vector3(.1F, 0F, 0F);
-            rb.transform.Translate(spd, 0f, 0f);
+            rb.transform.Translate(0f, 0f, spd);
         }
+     
+
         if (Input.GetKey(KeyCode.A))
         {
            //rb.transform.position += new Vector3(0F, 0F, .1F);
@@ -41,7 +52,7 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKey(KeyCode.S))
         {
             //rb.transform.position += new Vector3(-.1F, 0F, 0F);
-            rb.transform.Translate(-spd, 0f, 0f);
+            rb.transform.Translate(0f, 0f, -spd);
         }
         if (Input.GetKey(KeyCode.D))
         {
