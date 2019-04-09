@@ -14,6 +14,7 @@ public class escape : MonoBehaviour
     public AudioSource room1Audio;
     public GameObject room1;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,9 +30,10 @@ public class escape : MonoBehaviour
     public void checkEscapeAndEscape() {
         if (inputField.text == "12")
         {
-            //doorButton.gameObject.SetActive(true);
+            doorButton.gameObject.SetActive(true);
             room1Audio = room1.GetComponent<AudioSource>();
             room1Audio.Stop();
+            door.GetComponent<AudioSource>().Play();
             GetComponent<AudioSource>().Play();
             //player1.GetComponent<Rigidbody>().transform.position += new Vector3(0F, 0F, -100F);
             //player2.GetComponent<Rigidbody>().transform.position += new Vector3(0F, 0F, -100F);
