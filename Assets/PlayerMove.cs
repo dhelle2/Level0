@@ -7,6 +7,7 @@ public class PlayerMove : MonoBehaviour
     // Start is called before the first frame update
     Rigidbody rb;
     public float spd = 1f;
+    public float rot = 0.5f;
     private Animator animator;
     bool Walk;
 
@@ -29,11 +30,13 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetButtonDown("Fire3"))
         {
             spd = 3f;
+            rot = 1.5f;
             //print("You hittin it");
         }
         if (Input.GetButtonUp("Fire3"))
         {
             spd = 1f;
+            rot = 0.5f;
             //print("You ain't");
         }
 
@@ -47,7 +50,7 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
            //rb.transform.position += new Vector3(0F, 0F, .1F);
-            rb.transform.Rotate(0, spd*-3f, 0);
+            rb.transform.Rotate(0, -rot, 0);
         }
         if (Input.GetKey(KeyCode.S))
         {
@@ -57,7 +60,7 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             //rb.transform.position += new Vector3(0F, 0F, -.1F);
-            rb.transform.Rotate(0, spd*3f, 0);
+            rb.transform.Rotate(0, rot, 0);
         }
        
     }
