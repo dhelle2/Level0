@@ -13,7 +13,6 @@ public class escape : MonoBehaviour
     public GameObject doorButton;
     public AudioSource room1Audio;
     public GameObject room1;
-    public Button oneButton;
 
 
     // Start is called before the first frame update
@@ -26,11 +25,6 @@ public class escape : MonoBehaviour
     void Update()
     {
         
-    }
-
-    public void oneButtonPressed()
-    {
-        inputField.text += "1";
     }
 
     public void checkEscapeAndEscape() {
