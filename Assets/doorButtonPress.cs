@@ -24,7 +24,7 @@ public class doorButtonPress : MonoBehaviour
 
     public void doorBPressed()
     {
-        playerOne.transform.position = new Vector3(-107.1F, 5.566614F, -170.7F);
+        playerOne.transform.position = new Vector3(440F, 1.96F, -721F);
         doorButton.gameObject.SetActive(false);
     }
 }

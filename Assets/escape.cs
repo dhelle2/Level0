@@ -30,11 +30,19 @@ public class escape : MonoBehaviour
     public void OnePressed()
     {
         inputField.text += 1;
+        if(inputField.text == "12")
+        {
+            checkEscapeAndEscape();
+        }
     }
 
     public void TwoPressed()
     {
         inputField.text += 2;
+        if (inputField.text == "12")
+        {
+            checkEscapeAndEscape();
+        }
     }
 
     public void checkEscapeAndEscape() {
