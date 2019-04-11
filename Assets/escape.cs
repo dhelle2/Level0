@@ -27,6 +27,16 @@ public class escape : MonoBehaviour
         
     }
 
+    public void OnePressed()
+    {
+        inputField.text += 1;
+    }
+
+    public void TwoPressed()
+    {
+        inputField.text += 2;
+    }
+
     public void checkEscapeAndEscape() {
         if (inputField.text == "12")
         {
