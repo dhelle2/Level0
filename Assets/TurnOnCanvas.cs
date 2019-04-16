@@ -6,6 +6,8 @@ public class TurnOnCanvas : MonoBehaviour
 {
     public GameObject gui;
 
+    public GameObject roomOne;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,5 +23,6 @@ public class TurnOnCanvas : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         gui.GetComponent<Canvas>().enabled = true;
+        roomOne.GetComponent<AudioSource>().Stop();
     }
 }

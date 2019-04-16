@@ -21,5 +21,6 @@ public class TurnOffCanvas : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         gui.GetComponent<Canvas>().enabled = false;
+        GetComponent<AudioSource>().Play();
     }
 }
