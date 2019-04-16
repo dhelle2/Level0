@@ -27,7 +27,12 @@ public class escape : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    public void clearCode()
+    {
+        inputField.text = "";
     }
 
     public void OnePressed()
