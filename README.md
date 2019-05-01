@@ -5,6 +5,8 @@ The CAVE2 build requires an earlier version of unity than our (pre) alpha deskto
 
 asset packages (go to assets/import then find "samplescene" select):
 
+Gamma build (for public demo): https://drive.google.com/open?id=1X9viib3glVtv5fwO7yTq8iC6vvNCZ0jw
+
 (new maze- part of beta: ) https://drive.google.com/open?id=1nWN6-bP9_neoFw_VQpx3Vecnc4iArtMI
 
 (third build - more of beta:) https://drive.google.com/open?id=1XLoxclPxKy8tPlgh5DNL_Ja8uu2Q6Ffa
